@@ -20,9 +20,9 @@ class Fraction:
     
     def __eq__(self,other):
         
-        firstnum == self.num*other.den
-        secondnum == self.den*other.num
-        return firstnum == secondnumz`
+        firstnum = self.num*other.den
+        secondnum = self.den*other.num
+        return firstnum == secondnumz
         
 def gcd(m,n):
     while m%n != 0:
