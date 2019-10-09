@@ -22,7 +22,7 @@ class Fraction:
         
         firstnum = self.num*other.den
         secondnum = self.den*other.num
-        return firstnum == secondnumz
+        return firstnum == secondnum
         
 def gcd(m,n):
     while m%n != 0:
